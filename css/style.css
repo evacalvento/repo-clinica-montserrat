@@ -89,7 +89,7 @@ header a:hover{
     flex-direction: column;
     height: 80vh;
     color: white;
-    background-image: url(../pages/images/pexels-mart-production-7088841.jpg);
+    background-image: url(../images/pexels-mart-production-7088841.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -106,7 +106,7 @@ header a:hover{
     flex-direction: column;
     height: 80vh;
     color: white;
-    background-image: url(../pages/images/pexels-antoni-shkraba-5215017.jpg);
+    background-image: url(../images/pexels-antoni-shkraba-5215017.jpg);
     background-position:center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -264,7 +264,7 @@ footer p{
     }
 
     #opiniones{
-        background-image: url(../pages/images/pexels-karolina-grabowska-4386464\ \(1\).jpg);
+        background-image: url(../images/pexels-karolina-grabowska-4386464\ \(1\).jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
