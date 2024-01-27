@@ -1,4 +1,4 @@
-@mixin flex($direction, $justify, $align,$text){
+@mixin flex($direction, $justify, $align, $text){
     display:flex;
     flex-direction: $direction;
     justify-content: $justify;
@@ -11,8 +11,7 @@
 }
 
 header{
-    background-color: $color-body;
-
+    
     .container{
         @include flex(column, center, center ,center);
         max-width: 400px;
@@ -25,8 +24,8 @@ header{
         }
 
         nav{
-            @include flex(column, center, center, center);
-            padding-bottom: 20px;
+         @include flex(column, center, center, center);
+         padding-bottom: 20px;
 
             ul{
                 list-style: none;

@@ -1,4 +1,4 @@
-@mixin flex($direction, $justify, $align,$text){
+@mixin flex($direction, $justify, $align, $text) {
     display:flex;
     flex-direction: $direction;
     justify-content: $justify;
@@ -6,11 +6,11 @@
 }
 
 footer{
-    @include flex(column, center, center, center);
     padding-top:30px;
     background-color: $color-body;
-
+    
     p{
+        @include flex(column,center,center,center);
         font-size: 20px;
     }
 }

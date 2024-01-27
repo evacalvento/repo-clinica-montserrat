@@ -5,13 +5,18 @@
     align-items: $align;
 }
 
+$color-body:rgb(148, 230, 131);
+$color-hover:rgb(66, 160, 48);
+$color-button:rgb(98,238,98);
+
 .servicios-container{
-    background-color: $color-body;
     color: white;
     margin: 20px 30px;
+    background-color: $color-body;
  
     li{
       padding: 5px 5px;
+      list-style: none;
      
         a{
          @include flex(column, center, center, center);

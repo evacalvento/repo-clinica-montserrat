@@ -11,7 +11,7 @@
 }
 
 #hero{
-    background-image: url(images/pexels-mart-production-7088841.jpg);
+    background-image: url(../images/a.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     @include flex(column, center, center, center);
@@ -39,26 +39,40 @@
 }
 
 #alternativ{
+    background-image: url(../images/b.jpg);
     @include flex(column, center, center, center);
     height: 80vh;
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../images/pexels-mart-production-7088841.jpg);
     background-position:center center;
 }
 
-#opiniones h3{
-    @include basico(20px,30px 20px);
-    margin-top: 20px;
-    color: white;
-}
-    
-#opiniones textarea{
-    margin:30px;
+
+#opiniones{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h3{
+        @include basico(20px,30px 20px);
+        padding:20px 30px;
+        font-size:25px;
+        font-weight: bold;
+        margin-top: 20px;
+        color: white;
+    }
+
+    textarea{
+        margin:30px;
+    }
+ 
+    button{
+        @include basico(20px, 2px 30px);
+        padding: 10px;
+    }
+  
 }
 
-#opiniones button{
-   @include basico(20px, 2px 30px);
-   padding: 10px;
-}
+
+    
