@@ -136,6 +136,11 @@ button .boton-portal {
 }
 
 #opiniones {
+  background-image: url(../images/c.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -263,7 +268,7 @@ footer p {
     align-items: center;
   }
   #opiniones {
-    background-image: url(../images/c.jpg);
+    background-image: url(images/pexels-karolina-grabowska-4386464\ \(1\).jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

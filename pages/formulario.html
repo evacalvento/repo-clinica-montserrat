@@ -10,8 +10,8 @@
     <header>
         <div class="container">
             <h1>Clínica Médica Montserrat</h1>
-            <nav>    
-                <ul>
+            <nav class="row">    
+                <ul class="col-md-12">
                     <li>
                        <a href="../index.html">Inicio</a>
                     </li>
@@ -31,48 +31,58 @@
 
     <main>
         <section class="turnos-container">
-                <h2>Para poder reservar un turno ingrese sus datos:</h2>
-                <form action="">
-                  <label for="">Ingrese su nombre y apellido:</label>
-                  <input type="text" name="nombre" id="nombre" placeholder="Juan Perez"> <br>
-  
-                  <label for="">Ingrese su número de documento:</label>
-                  <input type="text"placeholder="44.333.222"> <br>
-  
-                  <label for="">Indique si tiene cobertura médica:</label> 
-                  <select name="" id="">
-                    <option value="">Tengo cobertura médica</option>
-                    <option value="">No tengo cobertura médica</option>
-                  </select> <br>
-  
-                  <label for="">Indique el día del turno:</label>
-                  <select name="" id="">
-                    <option value=""> 22 de febrero 09hs</option> 
-                    <option value=""> 23 de febrero 11hs</option>
-                    <option value=""> 25 de febrero 17hs</option>
-                    <option value=""> 26 de febrero 14hs</option>
-                    <option value=""> 27 de febrero 16hs</option>
-                  </select> <br>
-           
-                  <h2>Datos opcionales:</h2>
+            <div class="row">
+                <div class="col-md-12">
+                   <h2>Para poder reservar un turno ingrese sus datos:</h2>
     
-                  <label for="">Ingrese su e-mail personal para poder enviarle los resultados de sus estudios médicos:</label>
-                  <input type="text" placeholder="sucorreo@gmail.com"> <br>
+                    <form action="">
+                        <label for="">Ingrese su nombre y apellido:</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Juan Perez"> <br>
   
-                  <label for="">Ingrese su número de celular en caso de tener que contactarlo/a: </label>
-                  <input type="text" placeholder="+54 9 112223333"> <br>
-                  <button>ACEPTAR</button>    
-                </form>    
+                        <label for="">Ingrese su número de documento:</label>
+                        <input type="text"placeholder="44.333.222"> <br>
+  
+                        <label for="">Indique si tiene cobertura médica:</label> 
+                        <select name="" id="">
+                           <option value="">Tengo cobertura médica</option>
+                           <option value="">No tengo cobertura médica</option>
+                        </select> <br>
+  
+                        <label for="">Indique el día del turno:</label>
+                        <select name="" id="">
+                           <option value=""> 22 de enero 09hs</option> 
+                           <option value=""> 23 de enero 11hs</option>
+                           <option value=""> 25 de enero 17hs</option>
+                           <option value=""> 26 de enero 14hs</option>
+                           <option value=""> 27 de enero 16hs</option>
+                        </select> <br>
+           
+                        <h2>Datos opcionales:</h2>
+    
+                        <label for="">Ingrese su e-mail personal para poder enviarle los resultados de sus estudios médicos:</label>
+                        <input type="text" placeholder="sucorreo@gmail.com"> <br>
+  
+                        <label for="">Ingrese su número de celular en caso de tener que contactarlo/a: </label>
+                        <input type="text" placeholder="+54 9 112223333"> <br>
+                       <button>ACEPTAR</button>    
+                    </form>
+                </div>    
         </section>
     </main>
 
     <footer>
-        <section>
-            <strong> <p>WhatApps:+5492217778899</p> </strong>
-            <strong> <p>Instagram: @clínica_montserrat</p> </strong>
-            <strong> <p>&copy;Todos los derechos reservados.Clínica Médica Montserrat 2024.</p> </strong>
-        </section>
+        <div class="container-fluid">
+            <div class="row">
+                <section class="col-md-12">
+                   <strong> <p>WhatApps:+5492217778899</p> </strong>
+                   <strong> <p>Instagram: @clínica_montserrat</p> </strong>
+                   <strong> <p>&copy;Todos los derechos reservados.Clínica Médica Montserrat 2024.</p> </strong>
+                </section>
+            </div>
+        </div>
    </footer>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </body>
 </html>
