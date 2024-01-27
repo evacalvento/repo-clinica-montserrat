@@ -1,0 +1,54 @@
+@mixin flex($direction, $justify, $align,$text){
+    display:flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin basico($font, $margin){
+    font-size: $font;
+    margin: $margin;
+}
+
+header{
+    background-color: $color-body;
+
+    .container{
+        @include flex(column, center, center ,center);
+        max-width: 400px;
+        margin:auto;
+
+        h1{
+            @include basico(40, 0);
+            font-weight: bold;
+            color: white;
+        }
+
+        nav{
+            @include flex(column, center, center, center);
+            padding-bottom: 20px;
+
+            ul{
+                list-style: none;
+                display:flex;
+                flex-direction: row;
+                gap:16px;
+
+                li{
+                    font-size: 19px;
+
+                    a{
+                        font-size: 30px;
+                        padding: 5px 12px;
+                        text-decoration: none;
+                        font-weight: bold;
+                        color: green;
+                        & :hover{
+                            color:white;
+                        }
+                    }
+                }   
+            }          
+        }
+    }
+}

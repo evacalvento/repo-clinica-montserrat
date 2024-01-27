@@ -1,0 +1,26 @@
+@mixin basico($font, $margin){
+    font-size: $font;
+    margin: $margin;
+}
+
+.turnos-container h2{
+    @include basico(30px,30px 20px);
+    color:white;
+}
+
+.turnos-container form{
+    @include basico(25px,40px 30px);
+}
+
+.turnos-container input{
+    padding: 7px 10px;
+}
+
+.turnos-container select{
+    padding: 5px 10px;
+}
+
+.contacto-container h2{
+    @include basico(30px, 30px 20px);
+    color:white;
+}    

@@ -1,0 +1,15 @@
+@mixin flex($direction, $justify, $align,$text){
+    display:flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+footer{
+    @include flex(column, center, center, center);
+    padding-top:30px;
+
+    p{
+        font-size: 20px;
+    }
+}

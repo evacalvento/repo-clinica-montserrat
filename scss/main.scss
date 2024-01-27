@@ -1,0 +1,19 @@
+ //BASE
+@import 'partials/base/reset';
+@import 'partials/base/tipografia';
+
+//UTILITIES
+@import 'partials/utilities/mixins';
+@import 'partials/utilities/variables';
+
+//COMPONENTS
+@import 'partials/components/body';
+@import 'partials/components/header';
+@import 'partials/components/button';
+@import 'partials/components/main-index';
+@import 'partials/components/main-servi';
+@import 'partials/components/main-formu';
+@import 'partials/components/main-portal';
+@import 'partials/components/main-contac';
+@import 'partials/components/footer';
+@import 'partials/components/mediaquerys';

@@ -1,0 +1,19 @@
+button{
+    font-size:20px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    color: green;
+    background-color: $color-button;
+    &:hover{
+        background-color:$color-hover;
+        color: white;
+    }
+
+    .boton-portal{
+        display:flex;
+        justify-content:column;
+        margin: 20px;
+    }  
+}

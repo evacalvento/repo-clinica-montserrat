@@ -1,0 +1,22 @@
+@mixin basico($font, $margin){
+    font-size: $font;
+    margin: $margin;
+}
+
+.portal-container h2{
+    @include basico(30px, 30px 20px);
+    color:white;
+}
+
+.portal-container form{
+    @include basico(25px, 40px 30px);
+}
+
+.portal-conteiner input{
+    padding: 7px 10px;
+    color:green;
+}
+
+.portal-container textarea{
+    margin:40px;
+}

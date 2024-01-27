@@ -1,0 +1,23 @@
+@mixin flex($direction, $justify, $align,$text){
+    display:flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin basico($font, $margin){
+    font-size: $font;
+    margin: $margin;
+}
+
+.contacto-container p{
+    @include basico(20px, 40px 50px);
+    @include flex(column, center ,center ,center);
+    font-weight: bold;
+    color:green;
+}
+
+.contacto-container h3{
+    @include basico(20px, 30px 20px);
+    color:white;
+}
