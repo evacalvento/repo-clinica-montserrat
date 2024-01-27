@@ -1,6 +1,10 @@
+$color-body:rgb(148, 230, 131);
+$color-hover:rgb(66, 160, 48);
+$color-button:rgb(98,238,98);
+
 body{
     font-family: 'Comfortaa', sans-serif;
-    color: $color-body;
+    background-color: $color-body;
     margin: 0;
 }
 

@@ -8,6 +8,7 @@
 footer{
     @include flex(column, center, center, center);
     padding-top:30px;
+    background-color: $color-body;
 
     p{
         font-size: 20px;

@@ -6,13 +6,14 @@
 }
 
 .servicios-container{
+    background-color: $color-body;
     color: white;
     margin: 20px 30px;
  
-     li{
+    li{
       padding: 5px 5px;
      
-         a{
+        a{
          @include flex(column, center, center, center);
          text-decoration: none;
          font-weight: bold;
@@ -21,9 +22,8 @@
          &:hover{
           color: white;
          }
-         }
- 
-     }
+        }
+    }
  
  }
  

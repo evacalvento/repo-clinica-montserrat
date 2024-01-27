@@ -11,14 +11,14 @@
 }
 
 #hero{
+    background-image: url(images/pexels-mart-production-7088841.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     @include flex(column, center, center, center);
     height: 80vh;
     color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(images/pexels-mart-production-7088841.jpg);
-
-     h2{
+    
+    h2{
         color: white;
     }
 }
@@ -44,7 +44,7 @@
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(images/pexels-antoni-shkraba-5215017.jpg);
+    background-image: url(../images/pexels-mart-production-7088841.jpg);
     background-position:center center;
 }
 
